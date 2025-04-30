@@ -10,7 +10,7 @@ describe('Upload File', () => {
     expect(res.body.filename).toEqual('wallpaperflare.jpg');
     expect(res.statusCode).toBe(200);
   });
-  it.only('POST /upload/multiple', async () => {
+  it('POST /upload/multiple', async () => {
     const files = ['data/wallpaper.jpg', 'data/wallpaperflare.jpg'];
     const res = await controller.postUplaodMultiple(files);
     expect(res.body.length).toBe(2);
