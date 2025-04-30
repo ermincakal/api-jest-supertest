@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="6" failures="0" errors="0" time="2.925">
-  <testsuite name="POC Tests" errors="0" failures="0" skipped="0" timestamp="2025-04-30T16:36:53" time="2.884" tests="6">
-    <testcase classname="POC Tests GET requests GET /posts" name="POC Tests GET requests GET /posts" time="0.16">
+<testsuites name="jest tests" tests="6" failures="0" errors="0" time="3.572">
+  <testsuite name="POC Tests" errors="0" failures="0" skipped="0" timestamp="2025-04-30T16:42:03" time="3.531" tests="6">
+    <testcase classname="POC Tests GET requests GET /posts" name="POC Tests GET requests GET /posts" time="0.157">
     </testcase>
-    <testcase classname="POC Tests GET requests GET /cooments with query" name="POC Tests GET requests GET /cooments with query" time="0.132">
+    <testcase classname="POC Tests GET requests GET /cooments with query" name="POC Tests GET requests GET /cooments with query" time="0.109">
     </testcase>
-    <testcase classname="POC Tests POST request POST /post" name="POC Tests POST request POST /post" time="0.526">
+    <testcase classname="POC Tests POST request POST /post" name="POC Tests POST request POST /post" time="1.194">
     </testcase>
-    <testcase classname="POC Tests PUT request PUT /posts/{id}" name="POC Tests PUT request PUT /posts/{id}" time="0.592">
+    <testcase classname="POC Tests PUT request PUT /posts/{id}" name="POC Tests PUT request PUT /posts/{id}" time="0.609">
     </testcase>
-    <testcase classname="POC Tests PATCH request PATCH /posts/{id}" name="POC Tests PATCH request PATCH /posts/{id}" time="0.331">
+    <testcase classname="POC Tests PATCH request PATCH /posts/{id}" name="POC Tests PATCH request PATCH /posts/{id}" time="0.325">
     </testcase>
-    <testcase classname="POC Tests DELETE request DELETE /posts/{id}" name="POC Tests DELETE request DELETE /posts/{id}" time="0.428">
+    <testcase classname="POC Tests DELETE request DELETE /posts/{id}" name="POC Tests DELETE request DELETE /posts/{id}" time="0.426">
     </testcase>
   </testsuite>
 </testsuites>
