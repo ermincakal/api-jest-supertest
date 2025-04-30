@@ -15,7 +15,6 @@ describe('POC Tests', () => {
       const res = await request
         .get('/comments')
         .query({ postId: 1, limit: 10 });
-      console.log(res);
 
       expect(res.body[0].postId).toBe(1);
     });
@@ -65,8 +64,6 @@ describe('POC Tests', () => {
       const beforeTitle = getRes.body.title;
 
       const res = await request.patch('/posts/1').send(data);
-      console.log(beforeTitle);
-      console.log(res.body.title);
       expect(res.body.title).toBe(data.title);
       expect(res.body.title).not.toBe(beforeTitle);
     });
